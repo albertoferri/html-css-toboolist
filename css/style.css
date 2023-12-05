@@ -3,8 +3,18 @@
     box-sizing: border-box;
 }
 
+/* body */
+    body{
+        background-color: #f6f8f9;
+    }
+/* fine body */
+
 
 /* header */
+
+header{
+    background-color: white;
+}
 
 #logo{
     vertical-align: middle;
@@ -16,3 +26,28 @@ h1{
 }
 /* fine header */
 
+/* main */
+
+main{
+    background-color: white;
+    margin: 20px 40px;
+}
+
+/* nav */
+
+
+#add-button{
+    background-color: #47adf1;
+    color: white;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+#sec-button{
+    border: 1px solid gray;
+    color: grey;
+    border-radius: 10px;
+}
+/* fine nav */
+
+/* fine main */
