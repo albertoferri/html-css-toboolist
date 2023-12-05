@@ -3,14 +3,15 @@
     box-sizing: border-box;
 }
 
-/* body */
+/* inizio body */
     body{
         background-color: #f6f8f9;
+        font-family: sans-serif;
     }
 /* fine body */
 
 
-/* header */
+/* inizio header */
 
 header{
     background-color: white;
@@ -26,28 +27,50 @@ h1{
 }
 /* fine header */
 
-/* main */
+/* inizio main */
 
 main{
     background-color: white;
-    margin: 20px 40px;
+    margin: 70px 250px;
+    padding: 25px 90px 15px ;
 }
 
-/* nav */
+/* inizio nav */
 
+nav{
+    border-bottom:5px #f6f8f9 solid;
+}
 
 #add-button{
     background-color: #47adf1;
     color: white;
     border-radius: 10px;
     border-color: transparent;
+    font-size: 14px;
 }
 
 #sec-button{
     border: 1px solid gray;
     color: grey;
     border-radius: 10px;
+    font-size: 14px;
 }
 /* fine nav */
+
+/* inizio section */
+
+.check{
+   color: #61bea6;
+   border: #61bea6 2px solid;
+   border-radius: 10px;
+}
+
+.mark{
+    color: #ef6b63;
+    border: #ef6b63 2px solid;
+    border-radius: 10px;
+
+}
+/* fine section */
 
 /* fine main */
