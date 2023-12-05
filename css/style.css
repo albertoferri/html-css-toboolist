@@ -6,7 +6,7 @@
 /* inizio body */
     body{
         background-color: #f6f8f9;
-        font-family: sans-serif;
+        font-family: Verdana;
     }
 /* fine body */
 
@@ -23,7 +23,8 @@ header{
 
 h1{
     display: inline-block;
-    line-height: 55px;
+    line-height: 50px;
+    vertical-align: middle;
 }
 /* fine header */
 
@@ -31,29 +32,35 @@ h1{
 
 main{
     background-color: white;
-    margin: 70px 250px;
+    margin: 70px 200px;
     padding: 25px 90px 15px ;
 }
 
 /* inizio nav */
 
 nav{
-    border-bottom:5px #f6f8f9 solid;
+    padding:0 10px;
+    border-bottom:4px #f6f8f9 solid;
+    
 }
 
-#add-button{
-    background-color: #47adf1;
+#task-button{
     color: white;
-    border-radius: 10px;
+    background-color: #47adf1;
+    padding: 3px 7px;
+    margin-bottom: 10px;
+    border-radius: 4px;
     border-color: transparent;
-    font-size: 14px;
+    font-size: .8em;
 }
 
 #sec-button{
-    border: 1px solid gray;
     color: grey;
-    border-radius: 10px;
-    font-size: 14px;
+    padding: 3px 7px;
+    margin-bottom: 10px;
+    border: 2px solid gray;
+    border-radius: 4px;
+    font-size: .8em;
 }
 /* fine nav */
 
@@ -61,16 +68,82 @@ nav{
 
 .check{
    color: #61bea6;
+   padding: 3px 5px;
    border: #61bea6 2px solid;
-   border-radius: 10px;
+   border-radius: 50%;
+   text-align: center;
+   font-size: .8em;
 }
 
 .mark{
     color: #ef6b63;
+    padding: 3px 5px;
     border: #ef6b63 2px solid;
-    border-radius: 10px;
-
+    border-radius: 70%;
+    text-align: center;
+    font-size: .8em;
 }
+
+.editorial{
+    vertical-align: middle;
+    background-color: #47adf1;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 20px;
+    border-color: transparent;
+    font-size: 10px;
+}
+
+.q1-goal{
+    vertical-align: middle;
+    background-color: #9c72e4;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 20px;
+    border-color: transparent;
+    font-size: 10px;
+}
+
+.recruiting{
+    vertical-align: middle;
+    background-color: #64c0a9;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 20px;
+    border-color: transparent;
+    font-size: 10px;
+}
+
+.mobile{
+    vertical-align: middle;
+    background-color: #f29e33;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 20px;
+    border-color: transparent;
+    font-size: 10px;
+}
+
+.website{
+    vertical-align: middle;
+    background-color: #d863a1;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 20px;
+    border-color: transparent;
+    font-size: 10px;
+}
+
+.sales{
+    vertical-align: middle;
+    background-color: #b0c926;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 20px;
+    border-color: transparent;
+    font-size: 10px; 
+}
+
 /* fine section */
 
 /* fine main */
