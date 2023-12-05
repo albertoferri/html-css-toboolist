@@ -1,0 +1,18 @@
+/* boxsizing */
+*{
+    box-sizing: border-box;
+}
+
+
+/* header */
+
+#logo{
+    vertical-align: middle;
+}
+
+h1{
+    display: inline-block;
+    line-height: 55px;
+}
+/* fine header */
+
