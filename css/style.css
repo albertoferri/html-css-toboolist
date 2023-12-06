@@ -6,7 +6,7 @@
 /* inizio body */
     body{
         background-color: #f6f8f9;
-        font-family: Verdana;
+        font-family: sans-serif;
     }
 /* fine body */
 
@@ -19,6 +19,7 @@ header{
 
 #logo{
     vertical-align: middle;
+    padding-left: 20px;
 }
 
 h1{
@@ -66,18 +67,27 @@ nav{
 
 /* inizio section */
 
+ul{
+    list-style-type: none;
+    padding: 0%;
+}
+
+li{
+    line-height: 30px;
+}
+
 .check{
    color: #61bea6;
-   padding: 3px 5px;
+   padding: 1px 3px;
    border: #61bea6 2px solid;
    border-radius: 50%;
    text-align: center;
-   font-size: .8em;
+   font-size: .6em;
 }
 
 .mark{
     color: #ef6b63;
-    padding: 3px 5px;
+    padding: 1px 3px;
     border: #ef6b63 2px solid;
     border-radius: 70%;
     text-align: center;
@@ -88,7 +98,7 @@ nav{
     vertical-align: middle;
     background-color: #47adf1;
     color: white;
-    padding: 8px 10px;
+    padding: 9px 10px;
     border-radius: 20px;
     border-color: transparent;
     font-size: 10px;
